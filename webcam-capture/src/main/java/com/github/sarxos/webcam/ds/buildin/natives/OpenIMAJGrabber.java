@@ -55,7 +55,7 @@ public class OpenIMAJGrabber extends CPPObject {
 
 	static {
 		Platform.addEmbeddedLibraryResourceRoot("com/github/sarxos/webcam/ds/buildin/lib/");
-		BridJ.register();
+		BridJ.register(OpenIMAJGrabber.class);
 	}
 
 	public OpenIMAJGrabber() {
